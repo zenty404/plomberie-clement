@@ -1,1 +1,14 @@
+# Dépendances (Le gros dossier lourd)
 node_modules/
+
+# Fichiers système Mac
+.DS_Store
+**/.DS_Store
+
+# Fichiers de build
+dist/
+build/
+.vercel/
+
+# Fichiers d'environnement
+.env
