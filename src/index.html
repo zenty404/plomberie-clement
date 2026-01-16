@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        /* Petit ajustement pour que le scroll ne soit pas caché par le menu */
+        /* Ajustement pour que le scroll s'arrête pile sous le menu */
         section { scroll-margin-top: 100px; }
     </style>
 </head>
@@ -29,19 +29,20 @@
                 </a>
             </div>
 
-            <a href="tel:+33610080485" class="md:hidden bg-blue-600 text-white p-3 rounded-full shadow-lg">
+            <a href="tel:+33610080485" class="md:hidden bg-blue-600 text-white w-12 h-12 flex items-center justify-center rounded-full shadow-lg">
                 <i class="fa-solid fa-phone"></i>
             </a>
         </div>
     </nav>
 
-    <section class="relative h-[600px] flex items-center justify-center text-center text-white bg-gray-900">
+    <section class="relative h-[650px] flex items-center justify-center text-center text-white bg-gray-900 pt-24">
+        
         <div class="absolute inset-0 overflow-hidden bg-gray-900">
-        <img src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?q=80&w=2074&auto=format&fit=crop" 
-             alt="Plomberie" 
-             class="w-full h-full object-cover opacity-30"
-             onerror="this.style.display='none'"> 
-    </div>
+            <img src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?q=80&w=2074&auto=format&fit=crop" 
+                 alt="Plomberie" 
+                 class="w-full h-full object-cover opacity-30"
+                 onerror="this.style.display='none'"> 
+        </div>
 
         <div class="relative z-10 px-6 max-w-4xl mx-auto">
             <span class="bg-blue-600 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-4 inline-block">
