@@ -3,122 +3,227 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entreprise Clément - Plombier Magny-le-Hongre</title>
-    <link href="./output.css" rel="stylesheet">
+    <title>Plomberie Clément - Dépannage Urgent Magny-le-Hongre & 77</title>
+    <meta name="description" content="Plombier à Magny-le-Hongre, Serris, Val d'Europe. Dépannage urgence 7j/7, recherche de fuite, débouchage et rénovation. Devis gratuit.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Petit ajustement pour que le scroll ne soit pas caché par le menu */
+        section { scroll-margin-top: 100px; }
+    </style>
 </head>
-<body class="bg-white text-slate-900 font-sans antialiased">
+<body class="bg-gray-50 text-gray-800 font-sans">
 
-    <div class="bg-red-600 text-white py-2 text-center text-sm font-bold tracking-wide px-4">
-        🚨 Urgence Fuite & Panne : Intervention rapide sur Magny et environs
-    </div>
-
-    <nav class="sticky top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-100">
-        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
-            
-            <div class="flex items-center gap-2 text-xl font-extrabold text-slate-900">
-                <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
-                </div>
-                ENTREPRISE CLÉMENT
-            </div>
-
-            <a href="tel:0610080485" class="hidden md:flex flex-col items-end group">
-                <span class="text-xs text-gray-500 font-medium">Artisan à Magny-le-Hongre</span>
-                <span class="text-xl font-bold text-blue-900 group-hover:text-blue-600 transition">06 10 08 04 85</span>
+    <nav class="fixed top-0 w-full z-50 bg-white shadow-md">
+        <div class="container mx-auto px-6 h-20 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-900 uppercase tracking-tighter">
+                PLOMBERIE <span class="text-blue-600">CLÉMENT</span>
             </a>
 
-            <a href="tel:0610080485" class="md:hidden bg-blue-600 text-white p-3 rounded-full shadow-lg animate-pulse">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+            <div class="hidden md:flex space-x-8 items-center font-medium">
+                <a href="#services" class="hover:text-blue-600 transition">Services</a>
+                <a href="#zone" class="hover:text-blue-600 transition">Zone d'intervention</a>
+                <a href="#tarifs" class="hover:text-blue-600 transition">Tarifs</a>
+                <a href="tel:+33610080485" class="bg-blue-600 text-white px-5 py-2 rounded-full font-bold hover:bg-blue-700 transition flex items-center gap-2 animate-pulse">
+                    <i class="fa-solid fa-phone"></i> 06 10 08 04 85
+                </a>
+            </div>
+
+            <a href="tel:+33610080485" class="md:hidden bg-blue-600 text-white p-3 rounded-full shadow-lg">
+                <i class="fa-solid fa-phone"></i>
             </a>
         </div>
     </nav>
 
-    <section class="relative bg-slate-50 py-20 lg:py-32 overflow-hidden">
-        <div class="max-w-7xl mx-auto px-6 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            
-            <div>
-                <div class="inline-block bg-blue-100 text-blue-700 px-4 py-1 rounded-full text-sm font-bold mb-6">
-                    📍 15 Rue de Paris, Magny-le-Hongre
-                </div>
-                <h1 class="text-5xl font-extrabold text-slate-900 mb-6 leading-tight">
-                    Plomberie & Chauffage <br/>
-                    <span class="text-blue-600">Installation et Dépannage.</span>
-                </h1>
-                <p class="text-lg text-slate-600 mb-8 max-w-lg leading-relaxed">
-                    Votre artisan de confiance à Magny. Spécialiste salle de bains, chauffe-eau et recherche de fuite. Intervention soignée et tarifs transparents.
-                </p>
-                <div class="flex flex-col sm:flex-row gap-4">
-                    <a href="tel:0610080485" class="px-8 py-4 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition shadow-lg shadow-red-200 text-center">
-                        Appeler le 06 10 08 04 85
-                    </a>
-                    <a href="#services" class="px-8 py-4 bg-white border border-slate-200 text-slate-700 font-bold rounded-lg hover:bg-slate-50 transition text-center">
-                        Voir mes prestations
-                    </a>
-                </div>
-                <div class="mt-8 flex items-center gap-4 text-sm text-slate-500 font-medium">
-                    <div class="flex text-yellow-400">
-                        ★★★★★
-                    </div>
-                    <span>4.9/5 sur Google (Clients satisfaits)</span>
-                </div>
-            </div>
+    <section class="relative h-[600px] flex items-center justify-center text-center text-white bg-gray-900">
+        <div class="absolute inset-0 overflow-hidden bg-gray-900">
+        <img src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?q=80&w=2074&auto=format&fit=crop" 
+             alt="Plomberie" 
+             class="w-full h-full object-cover opacity-30"
+             onerror="this.style.display='none'"> 
+    </div>
 
-            <div class="relative">
-                <div class="absolute -top-4 -left-4 w-72 h-72 bg-blue-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-                <div class="absolute -bottom-8 -right-4 w-72 h-72 bg-purple-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-                
-                <div class="relative rounded-2xl bg-white aspect-[4/3] shadow-2xl flex items-center justify-center overflow-hidden border-4 border-white">
-                    <div class="text-center p-8">
-                        <svg class="w-16 h-16 text-slate-300 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-                        <span class="text-slate-400 font-bold text-lg block">Emplacement pour votre photo</span>
-                        <span class="text-slate-300 text-sm">(Chantier ou Camionnette)</span>
-                    </div>
-                </div>
+        <div class="relative z-10 px-6 max-w-4xl mx-auto">
+            <span class="bg-blue-600 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-4 inline-block">
+                Disponible 7j/7
+            </span>
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                Votre Plombier de confiance à <span class="text-blue-400">Magny-le-Hongre</span>
+            </h1>
+            <p class="text-lg md:text-xl text-gray-200 mb-10 max-w-2xl mx-auto">
+                Urgence fuite, débouchage ou rénovation de salle de bain.
+                Intervention rapide sur tout le Val d'Europe.
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="tel:+33610080485" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full text-lg transition transform hover:scale-105 shadow-lg">
+                    <i class="fa-solid fa-phone mr-2"></i> Appeler le 06 10 08 04 85
+                </a>
+                <a href="#contact" class="bg-white hover:bg-gray-100 text-blue-900 font-bold py-4 px-8 rounded-full text-lg transition">
+                    Demander un devis
+                </a>
             </div>
-
         </div>
     </section>
 
-    <section id="services" class="py-24 bg-white">
-        <div class="max-w-7xl mx-auto px-6">
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
             <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold text-slate-900 mb-4">Mes domaines d'intervention</h2>
-                <p class="text-slate-500">Un travail de qualité, respectueux de votre intérieur.</p>
+                <h2 class="text-3xl font-bold text-blue-900 mb-4">Mes Services</h2>
+                <p class="text-gray-600">Une expertise complète pour tous vos problèmes de plomberie.</p>
             </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="p-8 border border-slate-100 rounded-2xl bg-slate-50 hover:border-blue-200 transition">
-                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-200 hover:shadow-xl transition duration-300 text-center group">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-blue-600 text-2xl group-hover:bg-blue-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-droplet-slash"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-2">Fuites & Urgences</h3>
-                    <p class="text-slate-500 text-sm">Intervention rapide sur fuites d'eau, robinetterie et canalisations. Ne laissez pas un dégât des eaux s'aggraver.</p>
+                    <h3 class="text-xl font-bold mb-3 text-gray-900">Fuites & Urgences</h3>
+                    <p class="text-gray-600">Réparation rapide de fuites d'eau, robinetterie cassée ou chasse d'eau qui coule. Stop aux dégâts des eaux.</p>
                 </div>
-                <div class="p-8 border border-slate-100 rounded-2xl bg-slate-50 hover:border-blue-200 transition">
-                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-200 hover:shadow-xl transition duration-300 text-center group">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-blue-600 text-2xl group-hover:bg-blue-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-toilet"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-2">Salle de Bains</h3>
-                    <p class="text-slate-500 text-sm">Création et rénovation complète. Installation de baignoires, douches italiennes et WC.</p>
+                    <h3 class="text-xl font-bold mb-3 text-gray-900">Débouchage</h3>
+                    <p class="text-gray-600">WC, éviers, lavabos ou canalisations bouchées. Intervention propre et efficace pour rétablir l'écoulement.</p>
                 </div>
-                <div class="p-8 border border-slate-100 rounded-2xl bg-slate-50 hover:border-blue-200 transition">
-                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6">
-                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"></path></svg>
+
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-200 hover:shadow-xl transition duration-300 text-center group">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-blue-600 text-2xl group-hover:bg-blue-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-tools"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-2">Chauffage & Eau Chaude</h3>
-                    <p class="text-slate-500 text-sm">Remplacement de chauffe-eau, entretien et détartrage. Installation de radiateurs.</p>
+                    <h3 class="text-xl font-bold mb-3 text-gray-900">Installation & Rénovation</h3>
+                    <p class="text-gray-600">Pose de chauffe-eau, remplacement de WC, création de salle de bain clé en main. Travail soigné.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="bg-slate-900 text-slate-400 py-12 text-center text-sm">
-        <p class="mb-2 text-white font-bold">Entreprise Clément</p>
-        <p>15 Rue de Paris, 77700 Magny-le-Hongre</p>
-        <p class="mt-4">
-            <a href="tel:0610080485" class="text-blue-400 hover:text-blue-300 underline">06 10 08 04 85</a>
-        </p>
-    </footer>
+    <section id="zone" class="py-20 bg-blue-900 text-white">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h2 class="text-3xl font-bold mb-6">J'interviens chez vous <br>en moins de 30 min ⚡️</h2>
+                <p class="text-blue-200 mb-8 text-lg">
+                    Basé à Magny-le-Hongre, je privilégie la proximité pour être réactif. 
+                    Pas de plateforme, c'est moi qui décroche et moi qui viens.
+                </p>
+                <ul class="space-y-3 font-medium">
+                    <li class="flex items-center"><i class="fa-solid fa-location-dot text-blue-400 mr-3"></i> Magny-le-Hongre</li>
+                    <li class="flex items-center"><i class="fa-solid fa-location-dot text-blue-400 mr-3"></i> Serris / Val d'Europe</li>
+                    <li class="flex items-center"><i class="fa-solid fa-location-dot text-blue-400 mr-3"></i> Bailly-Romainvilliers</li>
+                    <li class="flex items-center"><i class="fa-solid fa-location-dot text-blue-400 mr-3"></i> Chessy / Coupvray</li>
+                    <li class="flex items-center"><i class="fa-solid fa-location-dot text-blue-400 mr-3"></i> Montévrain</li>
+                </ul>
+            </div>
+            <div class="md:w-1/2">
+                <div class="bg-white p-2 rounded-lg shadow-2xl transform rotate-2">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41956.76672837373!2d2.776865664687056!3d48.87027888636773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61d2001602497%3A0x40b82c3688c56e0!2sMagny-le-Hongre!5e0!3m2!1sfr!2sfr!4v1705660000000!5m2!1sfr!2sfr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="rounded"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tarifs" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-blue-900 mb-4">Mes Tarifs</h2>
+                <p class="text-gray-600">Pas de surprise sur la facture. Voici mes forfaits de base.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                
+                <div class="border-2 border-gray-100 rounded-2xl p-8 hover:border-blue-600 transition duration-300 text-center relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-gray-200 text-gray-600 text-xs font-bold px-3 py-1 rounded-bl-lg uppercase">
+                        Le plus courant
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Dépannage Standard</h3>
+                    <div class="text-4xl font-extrabold text-blue-600 mb-4">90€</div>
+                    <ul class="text-gray-600 space-y-3 mb-8 text-sm text-left">
+                        <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-2"></i> Déplacement inclus</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-2"></i> 1h de main d'œuvre</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-2"></i> Petites réparations</li>
+                    </ul>
+                    <a href="tel:+33610080485" class="block w-full py-3 rounded-lg border-2 border-blue-600 text-blue-600 font-bold hover:bg-blue-600 hover:text-white transition">Commander</a>
+                </div>
+
+                <div class="border-2 border-blue-600 rounded-2xl p-8 shadow-xl text-center transform md:-translate-y-4 bg-white relative overflow-hidden">
+                    <div class="absolute top-0 inset-x-0 bg-blue-600 text-white text-xs font-bold py-1 uppercase tracking-wider">
+                        Recommandé
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2 mt-4">Recherche de Fuite</h3>
+                    <div class="text-4xl font-extrabold text-blue-600 mb-4">140€</div>
+                    <ul class="text-gray-600 space-y-3 mb-8 text-sm text-left">
+                        <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-2"></i> Déplacement rapide</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-2"></i> Diagnostic complet</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-2"></i> Rapport pour assurance</li>
+                    </ul>
+                    <a href="tel:+33610080485" class="block w-full py-3 rounded-lg bg-blue-600 text-white font-bold hover:bg-blue-700 transition shadow-lg">Intervenir</a>
+                </div>  
+
+                <div class="border-2 border-gray-100 rounded-2xl p-8 hover:border-blue-600 transition duration-300 text-center">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Gros Travaux</h3>
+                    <div class="text-4xl font-extrabold text-gray-800 mb-4">Sur Devis</div>
+                    <ul class="text-gray-600 space-y-3 mb-8 text-sm text-left">
+                        <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-2"></i> Rénovation salle de bain</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-2"></i> Pose chauffe-eau / WC</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-2"></i> Devis GRATUIT</li>
+                    </ul>
+                    <a href="tel:+33610080485" class="block w-full py-3 rounded-lg border-2 border-gray-300 text-gray-600 font-bold hover:border-gray-900 hover:text-gray-900 transition">Me contacter</a>
+                </div>
+
+            </div>
+            <p class="text-center text-gray-400 text-xs mt-8">Prix indicatifs TTC. Un devis précis sera établi avant chaque intervention.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="bg-white rounded-3xl shadow-xl overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/2 bg-blue-600 p-10 text-white flex flex-col justify-between">
+                        <div>
+                            <h2 class="text-3xl font-bold mb-4">Besoin d'un devis ?</h2>
+                            <p class="text-blue-100 mb-6">Appelez-moi directement pour une estimation rapide ou envoyez-moi un message.</p>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <i class="fa-solid fa-phone text-2xl mr-4"></i>
+                                <div>
+                                    <p class="text-sm text-blue-200">Téléphone</p>
+                                    <p class="font-bold text-xl">06 10 08 04 85</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fa-solid fa-check-circle text-2xl mr-4"></i>
+                                <div>
+                                    <p class="text-sm text-blue-200">Tarifs</p>
+                                    <p class="font-bold">Transparents & Sans surprise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="md:w-1/2 p-10 flex flex-col justify-center items-center text-center">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Urgence ?</h3>
+                        <p class="text-gray-600 mb-8">Je réponds immédiatement.</p>
+                        
+                        <a href="tel:+33610080485" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl shadow-lg transition transform hover:scale-105 mb-4">
+                            <i class="fa-solid fa-phone mr-2"></i> Appeler Clément
+                        </a>
+                        
+                        <a href="https://wa.me/33610080485?text=Bonjour%20Clément,%20j'ai%20besoin%20d'un%20renseignement%20plomberie." class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 rounded-xl shadow-lg transition transform hover:scale-105">
+                            <i class="fa-brands fa-whatsapp mr-2"></i> Message WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="text-center text-gray-400 mt-8 text-sm">
+                © 2026 Plomberie Clément - Site réalisé par <span class="text-blue-600 font-bold">Arthur.dev</span>
+            </p>
+        </div>
+    </section>
 
 </body>
 </html>
